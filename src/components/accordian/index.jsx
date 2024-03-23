@@ -30,7 +30,7 @@ export default function Accordian(){
   return (
     <main className='mainContent'>
       
-      <div onClick={hundleClick} className='toggleEnable item'>Enable MultiSelection <span> now its { enableMValue == true ? "true" :"false"} </span> </div>
+      <div onClick={hundleClick} className='toggleEnable item'>Enable MultiSelection <span> its { enableMValue == true ? "true" :"false"} </span> </div>
 
     
         {data.map((item,index)=>{
