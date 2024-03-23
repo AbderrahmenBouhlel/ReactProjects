@@ -35,7 +35,7 @@ export default function Accordian(){
    
     return (
         <div className="wrapper">
-            <button onClick={() => setMultyselection(!Multyselection)}>Enable Multiselection now its {Multyselection ? "true":"false"}</button>
+            <button onClick={() => setMultyselection(!Multyselection)}>Enable Multiselection  its {Multyselection ? "true":"false"}</button>
             <div className="accordian">
                 {
                     data && data.length > 0 ?
